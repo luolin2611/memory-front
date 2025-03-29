@@ -19,7 +19,8 @@ import {
   Field,
   Dialog,
   Uploader,
-  Search
+  Search,
+  Popup
 } from 'vant'
 
 // 引入全局样式
@@ -45,6 +46,7 @@ app.use(Field)
 app.use(Dialog)
 app.use(Uploader)
 app.use(Search)
+app.use(Popup)
 
 // 使用路由
 app.use(router)

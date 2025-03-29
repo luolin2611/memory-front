@@ -39,16 +39,6 @@ const routes: RouteRecordRaw[] = [
     }
   },
   {
-    path: '/todo',
-    name: 'Todo',
-    component: () => import('../views/todo/index.vue'),
-    meta: {
-      title: '待办',
-      keepAlive: true,
-      showTabBar: true
-    }
-  },
-  {
     path: '/profile',
     name: 'Profile',
     component: () => import('../views/account/profile/index.vue'),
