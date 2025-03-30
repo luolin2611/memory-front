@@ -39,6 +39,14 @@ const routes: RouteRecordRaw[] = [
     }
   },
   {
+    path: '/home/add-note',
+    name: 'AddNote',
+    component: () => import('@/views/home/add-note.vue'),
+    meta: {
+      title: '添加笔记'
+    }
+  },
+  {
     path: '/profile',
     name: 'Profile',
     component: () => import('../views/account/profile/index.vue'),

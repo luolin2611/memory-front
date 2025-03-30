@@ -45,7 +45,9 @@ const handleAdd = () => {
 
 const handleMenuSelect = (type: 'knowledge' | 'memory') => {
   console.log('Selected:', type)
-  // 这里可以处理选项的点击事件
+  if (type === 'knowledge') {
+    router.push('/home/add-note')
+  }
 }
 
 const handleMenuCancel = () => {

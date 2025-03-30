@@ -6,7 +6,11 @@ interface UploadResponse {
   fileName: string
 }
 
-// 上传文件
+/**
+ * 上传文件
+ * @param file 文件对象
+ * @returns 上传响应数据
+ */
 export function uploadFile(file: File) {
   const formData = new FormData()
   formData.append('file', file)
@@ -19,4 +23,4 @@ export function uploadFile(file: File) {
       'Content-Type': 'multipart/form-data'
     }
   })
-} 
+}

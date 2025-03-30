@@ -20,7 +20,8 @@ import {
   Dialog,
   Uploader,
   Search,
-  Popup
+  Popup,
+  Picker
 } from 'vant'
 
 // 引入全局样式
@@ -47,6 +48,7 @@ app.use(Dialog)
 app.use(Uploader)
 app.use(Search)
 app.use(Popup)
+app.use(Picker)
 
 // 使用路由
 app.use(router)

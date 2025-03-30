@@ -13,7 +13,9 @@
   "dependencies": {
     "@types/vue-router": "^2.0.0",
     "@vant/use": "^1.6.0",
+    "@vueup/vue-quill": "^1.2.0",
     "axios": "^1.6.7",
+    "md-editor-v3": "^5.4.5",
     "pinia": "^2.1.7",
     "vant": "^4.8.1",
     "vue": "^3.3.11",
